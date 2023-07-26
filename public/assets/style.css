@@ -1,0 +1,137 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+    background: #ffefef;
+  }
+ 
+h1 {
+  width: 100%;
+  margin-top: 20px;
+  color: rgb(0, 55, 128);
+  font-size: 3vw;
+  text-shadow: 10px 4px 2px rgba(255, 230, 0, 0.2);
+  align-items: center;
+}
+
+#cityInput{
+  display: inline-block;
+  width: min-content;
+}
+  .search {
+     margin: 38px auto;
+     width: 28%;
+     width: 25%;
+     border: 2px solid rgb(145, 145, 145);
+     border-radius: 20px;
+  }
+  input {
+    border-radius: 20px;
+    background-color: transparent;
+    box-sizing: border-box;
+    padding: 10px 15px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    transition: 0.3s ease-in;
+  }
+
+   input:focus{
+     box-shadow: 10px 10px 20px 10px rgba(0, 60, 102, 0.1);
+   }
+
+   .weather_body {
+    margin: 0px auto;
+    width: 26%;
+    padding: 1px;
+    border-radius: 20px;
+    height: 420px;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102, 0.2);
+    background-image: linear-gradient( to right, rgb(204, 213, 252) , rgb(201, 253, 203)); 
+    margin-bottom: 32px;  
+}
+
+
+  .city {
+   
+    font-size: 4vw;
+    font-weight: 450;
+   
+  }
+  
+  .date {
+    font-size: 18px;
+  }
+  
+   .tmp {
+    font-size: 7vw;
+    font-weight: 900;
+    margin-top: 15px;
+    text-shadow: 5px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+   .tmp span {
+    font-weight: 500;
+  }
+  
+   .visiblity {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 650;
+    font-style: oblique;
+  }
+  
+  .min_max{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    
+  }
+
+/* CSS */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}

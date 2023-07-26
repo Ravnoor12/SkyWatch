@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "trying weather api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravnoor Singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "netlify-lambda": "^2.0.15",
+    "serverless-http": "^3.0.1",
+    "Weather-App": "github.com/Ranger-12/Weather-App"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ranger-12/Weather-App.git"
+  }
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href= "/public/assets/style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <h1> WEATHER APPLICATION</h1>
+        <div class="weather_body">
+            <div class="location_info">
+                <div class="city"> <%=cityName%> </div>
+                <div class="date"><%=day%> <%=cur_date%> <%=month%> <%=year%> </div>
+            </div>
+
+            <div class="weather_info">
+                <div class="tmp"><%=Temperature%><span>&deg;C</span></div>
+                <div class="visiblity"> <%=des%>  </div>
+                <div class="img"> <img src= <%=Url%> > </div>
+                <!-- <div class="min_max">19<span>&deg;C (min)</span>/ 21<span>&deg;C (max)</span></div> -->
+            </div>
+
+        </div>
+
+        <form action="/" method="get">
+            <button class="button-29" role="button">Home</button>
+        </form>
+    </div>
+
+    <!-- <script src="script/script.js"></script> -->
+</body>
+
+</html>
